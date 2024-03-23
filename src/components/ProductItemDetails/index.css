@@ -1,0 +1,89 @@
+.product-details-container {
+  padding: 35px 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 40px;
+}
+.product-image {
+  width: 100%;
+  max-width: 450px;
+  height: 500px;
+  border-radius: 15px;
+}
+.product-details-heading {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 35px;
+  color: black;
+}
+.product-details-price {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  color: black;
+}
+.ratting-btn {
+  background-color: #3b82f6;
+  text-align: center;
+  padding: 8px 15px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 15px;
+}
+.star-img {
+  width: 20px;
+}
+.review-text {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  color: #616e7c;
+}
+.product-description {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #616e7c;
+  width: 450px;
+}
+.product-texts {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  color: #1e293b;
+}
+.span-text {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  color: #616e7c;
+}
+.add-to-cart-contianer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+  padding: 5px;
+}
+.addCart-btn {
+  background-color: #3b82f6;
+  text-align: center;
+  padding: 8px 15px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+.similar-product-header{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  margin-left: 25px;
+}
+.similar-product-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 50px;
+  list-style-type: none;
+}
